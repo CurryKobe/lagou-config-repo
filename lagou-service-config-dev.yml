@@ -4,6 +4,9 @@ config:
       apis: /api/user/register/
       intervalMinutes: 1
       maxRequestCount: 6
+  code:
+    validate:
+      expire:10
   response:
     message:
       seeother: 您频繁进⾏注册，请求已被拒绝！
